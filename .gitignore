@@ -1,4 +1,7 @@
 # *******************************************************************************************
 # THIS file will tell git which folders and/or files to ignore
-
+# ignore all contents of Sandbox folder
+# ignore everything in Sandbox, except .gitkeep
+Sandbox/*
+!Sandbox/.gitkeep
 # *******************************************************************************************
