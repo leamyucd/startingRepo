@@ -19,6 +19,7 @@ classdef ParBond
 %
 %
 % ********************************************************************************************** 
+%% Independent Properties
 properties
     face          (1,1) single;
     tenor         (1,1) single;
@@ -26,6 +27,7 @@ properties
     couponRate    (1,1) single;
 end
 
+%% Dependent Propeerties
 properties (Dependent)
     numPeriods    (1,1) single;
     isZcb         (1,1) logical;
